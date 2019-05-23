@@ -14,12 +14,11 @@
     Программа: Программирую
     
 """
-
-def ask_user():
-    """
-    Замените pass на ваш код
-    """
-    pass
-    
+slovar = {"Как дела?": "Хорошо!", "Что делаешь?": "Программирую", "Гулять пойдем?" : "Вечером"}
+def ask_user_dict():
+  asc = str(input("Задайте вопрос:"))
+  while slovar.get(asc) == None:
+    asc = str(input("Задайте еще вопрос:"))
+  return(print(slovar.get(asc)))  
 if __name__ == "__main__":
-    ask_user()
+  ask_user_dict()
