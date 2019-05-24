@@ -11,6 +11,7 @@
 
 
 def ask_user():
+    
     a = input("Как дела?:")
     while a != "Хорошо":
         a = input("Как дела?:")
