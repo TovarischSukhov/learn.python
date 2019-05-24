@@ -23,7 +23,7 @@ def main():
   elif a < 22:
   	return ("Вы учитесь в ВУЗе")
   else:
-  	return ("Вы работаете")
+  	return ("Вы уже работаете")
   	
 
 if __name__ == "__main__":
