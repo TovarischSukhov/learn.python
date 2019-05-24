@@ -25,6 +25,7 @@ def main(a,b):
             return 3   
     else:
         return 0    
+
 if __name__ == "__main__":
     print(main(444,"gfgf"))
     print(main("444","444"))
