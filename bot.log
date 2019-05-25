@@ -1,6 +1,6 @@
-2019-05-23 06:49:52,354 - INFO- Бот запускается
+2019-05-23 06:49:52,354 - INFO- ГЃГ®ГІ Г§Г ГЇГіГ±ГЄГ ГҐГІГ±Гї
 2019-05-23 06:53:30,923 - INFO- Received signal 2 (SIGINT), stopping...
-2019-05-23 07:01:20,947 - INFO- Бот запускается
+2019-05-23 07:01:20,947 - INFO- ГЃГ®ГІ Г§Г ГЇГіГ±ГЄГ ГҐГІГ±Гї
 2019-05-23 07:01:34,214 - ERROR- An uncaught error was raised while processing the update
 Traceback (most recent call last):
   File "C:\Users\USER\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
@@ -12,9 +12,9 @@ Traceback (most recent call last):
 NameError: name 'update_message_reply_text' is not defined
 2019-05-23 07:02:39,649 - INFO- Received signal 2 (SIGINT), stopping...
 2019-05-23 07:02:45,764 - WARNING- Exiting immediately!
-2019-05-23 07:02:52,841 - INFO- Бот запускается
+2019-05-23 07:02:52,841 - INFO- ГЃГ®ГІ Г§Г ГЇГіГ±ГЄГ ГҐГІГ±Гї
 2019-05-23 07:15:24,724 - INFO- Received signal 2 (SIGINT), stopping...
-2019-05-23 07:15:36,722 - INFO- Бот запускается
+2019-05-23 07:15:36,722 - INFO- ГЃГ®ГІ Г§Г ГЇГіГ±ГЄГ ГҐГІГ±Гї
 2019-05-23 07:15:52,576 - ERROR- An uncaught error was raised while processing the update
 Traceback (most recent call last):
   File "C:\Users\USER\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
@@ -26,5 +26,6 @@ Traceback (most recent call last):
 AttributeError: 'Chat' object has no attribute 'user_name'
 2019-05-23 07:17:40,882 - WARNING- Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x00000000038EEEF0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot723030173:AAEH6hRIuxxne8JFHK1rYpOq6Q0PVwlfPfI/getUpdates
 2019-05-23 07:17:59,673 - INFO- Received signal 2 (SIGINT), stopping...
-2019-05-23 07:18:11,281 - INFO- Бот запускается
-2019-05-23 07:18:32,630 - INFO- User: dzhohal, Chat id: 739566309, Message: Привет 
+2019-05-23 07:18:11,281 - INFO- ГЃГ®ГІ Г§Г ГЇГіГ±ГЄГ ГҐГІГ±Гї
+2019-05-23 07:18:32,630 - INFO- User: dzhohal, Chat id: 739566309, Message: ГЏГ°ГЁГўГҐГІ 
+
