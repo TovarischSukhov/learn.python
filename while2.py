@@ -18,7 +18,11 @@ slovar = {"Как дела?": "Хорошо!", "Что делаешь?": "Про
 def ask_user_dict():
   asc = str(input("Задайте вопрос:"))
   while slovar.get(asc) == None:
+    # slovar.get(asc)  возвращает None, когда ключа нет в словаре, if None == if False, то есть не обязательно сравнивать
+    # обчно используют провекрку наличия ключа - asc in slovar: ... или не-наличия not asc in slovar:
     asc = str(input("Задайте еще вопрос:"))
   return(print(slovar.get(asc)))  
+
+
 if __name__ == "__main__":
   ask_user_dict()
