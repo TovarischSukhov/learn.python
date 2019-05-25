@@ -17,6 +17,7 @@ def main(ocenki):
   vsekol = 0
   p = ""
   for klass in ocenki:
+    #если задать переменные про класс тут, то не придется их обнулять =)
     for bal in klass["scores"]:
         vesklass += bal
         vseshkola += bal
