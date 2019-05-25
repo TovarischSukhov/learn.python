@@ -17,9 +17,11 @@
 
 def main(a,b):
     if type(a) == str and type(b) == str:
+    # тут, в принципе все правильно, но лучше использовать isinstance(), почитай, как работает
         if a == b:
             return 1
         elif a != b and len(a) > len(b):
+          # зачем 1е условие? что делает elif?  в каких ситуациях ты в него проваливаешься?
             return 2
         elif a != b and b =="learn":
             return 3   
